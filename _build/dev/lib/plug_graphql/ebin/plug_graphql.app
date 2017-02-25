@@ -1,0 +1,12 @@
+{application,plug_graphql,
+             [{description,"A Plug integration for GraphQL Elixir"},
+              {modules,['Elixir.GraphQL.Plug',
+                        'Elixir.GraphQL.Plug.ConfigurableValue',
+                        'Elixir.GraphQL.Plug.Endpoint',
+                        'Elixir.GraphQL.Plug.GraphiQL',
+                        'Elixir.GraphQL.Plug.Parameter',
+                        'Elixir.Plug.Parsers.GRAPHQL']},
+              {registered,[]},
+              {vsn,"0.3.1"},
+              {applications,[kernel,stdlib,elixir,logger,plug,cowboy,
+                             graphql]}]}.

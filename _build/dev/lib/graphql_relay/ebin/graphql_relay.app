@@ -1,0 +1,13 @@
+{application,graphql_relay,
+             [{description,"Elixir implementation of Relay for GraphQL"},
+              {modules,['Elixir.GraphQL.Relay',
+                        'Elixir.GraphQL.Relay.Connection',
+                        'Elixir.GraphQL.Relay.Connection.Ecto',
+                        'Elixir.GraphQL.Relay.Connection.List',
+                        'Elixir.GraphQL.Relay.Mutation',
+                        'Elixir.GraphQL.Relay.Node']},
+              {registered,[]},
+              {vsn,"0.0.17"},
+              {applications,[kernel,stdlib,elixir,logger,ecto]},
+              {env,[{schema_module,'Elixir.StarWars.Schema'},
+                    {schema_json_path,<<"./schema.json">>}]}]}.
